@@ -1,0 +1,84 @@
+
+body {
+    font-family: 'Fira Code', monospace;
+    background: rgba(14, 13, 13, 0.808);
+    color: white;
+}
+
+.body-bg {
+    background: rgba(14, 13, 13, 0.808);
+}
+
+hr {
+    height: .05rem;
+    background: black;
+  }
+
+.jumbotron {
+      background: #43cea2;
+      background: -webkit-linear-gradient(to right, #43cea2, #185a9d);
+      background: linear-gradient(to right, #43cea2, #185a9d);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    /* display: flex; */
+}
+
+.carousel-inner img {
+    width: 60rem;
+    height: 30rem;
+}
+
+.btn p{
+    display: inline;
+}
+
+.fon {
+    font-weight: bolder;
+    font-size: 5rem;
+}
+
+
+
+@media only screen and (max-width: 720px) {
+    .carousel-inner img {
+        width: 98%;
+        height: 30%;
+        max-height: 30%;
+    }
+    .btn p{
+        display: block;
+        margin-bottom: 2px;
+    }
+
+    .fon {
+        font-weight: bolder;
+        font-size: 3.5rem;
+        
+    }
+    
+}
+
+.image-parent {
+    max-width: 80px;
+    margin: 0;
+}
+
+.sdw {
+    box-shadow: 0px 0px 7px 7px rgba(255, 255, 0, 0.39);
+}
+
+.sdw-help {
+    box-shadow: 0px 0px 7px 7px rgba(0, 17, 255, 0.39);
+}
+
+.txtdec {
+    text-decoration: underline;
+    color: lightskyblue;
+}
+
+.navbar ul li a:hover {
+    background: rgba(14, 13, 13, 0.808);
+}

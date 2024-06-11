@@ -1,0 +1,81 @@
+*{
+    font-family: 'Fira Code', monospace;
+}
+
+body{
+     background: #8360c3;
+    background: -webkit-linear-gradient(to right, #8360c3, #2ebf91);
+    background: linear-gradient(to right, #8360c3, #2ebf91);
+}
+
+hr{
+    background: white;
+    height: 3px;
+}
+
+
+.grid-box{
+    margin: 4rem auto;
+    left: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    width: 80%;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.grid-box div{
+    background: #e0e7e5ad;
+    padding: 1rem 1rem;
+}
+.grid-box div hr{
+    background: black;
+}
+
+.grid-box div div{
+    background: #fdfdfd;
+    border-radius: .5rem;
+    margin-top: 3rem;
+}
+
+.grid-box div div textarea{
+    margin: 0;
+    height: 10rem;
+    resize: none;
+}
+
+.loder {
+    display: none;
+}
+
+.loder div{
+    background: none;
+}
+
+.loder div img {
+    height: 8rem;
+    width: 8rem;
+    border-radius: 6rem;
+}
+
+.loder div p {
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .grid-box{
+         width: 95%;
+    }
+}
+
+#tweeLoder {
+    background: none;
+    display: none;
+    
+}
+
+#tweeLoder img{
+    border-radius: 2em;
+    height: 4em; width: 4em;
+}

@@ -1,0 +1,26 @@
+<div class="jumbotron mt-5 mb-0 p-0 text-light" id="ContactUs">
+    <div class="p-3 pb-2 mt-1">
+        <h3><i class="bi bi-geo-alt"></i> location</h3>
+       <% data.Address.forEach((address, index) => { %>
+        <p><i class="bi bi-arrow-right-circle-fill"></i> <%= data.Address[index] %></p>
+       <% }) %>
+    </div>
+    <hr>
+    <div class="p-3 pb-2 mt-4">
+        <h3><i class="bi bi-telephone-fill"></i> Call for Help</h3>
+        <% data.CallForHelp.forEach((call, index) => { %>
+            <a href="tel:+91<%= data.CallForHelp[index] %>"><i class="bi bi-arrow-right-circle-fill"></i> +91-<%= data.CallForHelp[index] %></a>
+            <br>
+           <% }) %>
+    </div>
+    <hr>
+    <div class="p-3 pb-2 mt-4">
+        <h3><i class="bi bi-envelope-fill"></i> General Support</h3>
+        <% data.GeneralSupport.forEach((support, index) => { %>
+            <a href="mailto:<%= data.GeneralSupport[index] %>"><i class="bi bi-arrow-right-circle-fill"></i> <%= data.GeneralSupport[index] %></a><br>
+           <% }); %>
+    </div>
+    <div class="text-center">
+        <script type="text/javascript" src="//counter.websiteout.net/js/7/6/0/1"></script>
+    </div>
+</div>

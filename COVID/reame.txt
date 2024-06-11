@@ -1,0 +1,34 @@
+const newUser = new Admin ({
+        Description: "description goes here",
+        Heading: "Heading goes here",
+        Address: [
+            {
+                add: "address 1"
+            },
+            {
+                add: "address 2"
+            }
+        ],
+        CallForHelp: [
+            {
+                number: "number 1"
+            },
+            {
+                number: "number 2"
+            }
+        ],
+        GeneralSupport: [
+            {
+                supp: "support 1",
+            },
+            {
+                supp: "support 2"
+            }
+
+        ]
+    })
+    newUser.save()
+        .then(user => {
+          console.log("user added");
+        })
+        .catch(err => console.log(err));
