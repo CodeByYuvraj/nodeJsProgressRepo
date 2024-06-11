@@ -1,0 +1,21 @@
+{
+  "name": "socketio",
+  "version": "0.0.1",
+  "description": "simple real time webApp using socketio",
+  "main": "app.js",
+  "scripts": {
+    "test": "",
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "author": "Yuvraj Singh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "g": "^2.0.1",
+    "socket.io": "^4.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
